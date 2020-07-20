@@ -55,7 +55,7 @@ Steps included in this workflow:
 | API Token | Yes | 0 | 2000 | Personal Access Token from Mattermost | | No |
 | Channel Name | Yes | 0 | 2000 | The UI Name for the channel to be created. If you would like the URL of this to be different, change the Channel Path parameter. | | No |
 | Team | Yes | 0 | 2000 | Either the Team Name or the Team ID | | No |
-| Type | Yes | 0 | 2000 | Whether the Channel is Public or Private. (public or o) and (private or p) are the valid inputs. | | No |
+| Type | Yes | 0 | 2000 | Whether the Channel is Public or Private. (public or o) and (private or p) are the valid inputs. | Public | No |
 | Channel Path | No | 0 | 2000 | The name of the channel in the path. If left blank, this value will be the same as the channel name. | | No |
 | Description | No | 0 | 2000 | Description for the channel. {purpose} | | No |
 | Header | No | 0 | 2000 | Markdown-formatted text to display in the header of the channel | | No |
@@ -128,7 +128,7 @@ Steps included in this workflow:
 | API Token | Yes | 0 | 2000 | Personal Access Token from Mattermost | | No |
 | Channel Name | Yes | 0 | 2000 | The UI Name for the channel to be created. If you would like the URL of this to be different, change the Channel Path parameter. | | No |
 | Team | Yes | 0 | 2000 | Either the Team Name or the Team ID | | No |
-| Max Messages | Yes | 0 | 2000 | The Max number of recent messages to return | | No |
+| Max Messages | Yes | 0 | 2000 | The Max number of recent messages to return | 100 | No |
 
 
 ### Outputs
@@ -148,7 +148,7 @@ Steps included in this workflow:
 | API Token | Yes | 0 | 2000 | Personal Access Token from Mattermost | | No |
 | Messages | Yes | 0 | 20000 | Messages from Get Channel Posts step | | No |
 | Replies | Yes | 0 | 20000 | Replies from Get Channel Posts step. | | No |
-| Timezone | Yes | 0 | 2000 | Timezone message timestamps should be in. Format like America/New_York. | | No |
+| Timezone | Yes | 0 | 2000 | Timezone message timestamps should be in. Format like America/New_York. | America/New_York | No |
 | Error | No | 0 | 2000 | Any errors that occurred in the Get Channel Posts Step. | | No |
 
 
