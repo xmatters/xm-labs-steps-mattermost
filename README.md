@@ -2,6 +2,13 @@
 
 These steps allow you to call various APIs in Mattermost.
 
+Steps included in this workflow:
+- Create Channel
+- Delete Channel
+- Post to Channel
+- Invite to Channel
+- Get Channel Posts
+- Beautify Posts
 
 ---------
 
@@ -39,13 +46,6 @@ Optionally install an xMatters agent on the Mattermost Server in order to commun
 ## Usage
 The Mattermost steps are now available in your custom steps. So navigate to the appropriate canvas so you can add the step there. If you'd like to experiment with it, the **Steps** workflow has a canvas that can be triggered via HTTP call. 
 
-Steps included in this workflow:
-- Create Channel
-- Delete Channel
-- Post to Channel
-- Invite to Channel
-- Get Channel Posts
-- Beautify Posts
 
 ## Create Channel
 
